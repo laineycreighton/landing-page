@@ -1,4 +1,4 @@
-# Landing Page
+# Lake Tahoe Landing Page
 
 ## Table of Contents
 - [Description](#description)
