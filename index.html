@@ -8,14 +8,29 @@
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 
-<body>
+<body id="home">
     <!-----------------HEADER----------------->
     <header>
-        <h1>Lake Tahoe</h1>
-        <h2>Keep Tahoe Blue</h2>
+        <nav>
+            <ul>
+                <a href="#home">
+                    <li>Home</li>
+                </a>
+                <a href="#about">
+                    <li>About</li>
+                </a>
+                <a href="#contact-form">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </nav>
+        <section class="title">
+            <h1>Lake Tahoe</h1>
+            <h2>Keep Tahoe Blue</h2>
+        </section>
     </header>
     <!--------------TAHOE ARTICLE-------------->
-    <article>
+    <article id="about">
         <img src="./assets/images/lake-tahoe.jpeg" alt="shore of Lake Tahoe" class="tahoe">
         <p class="facts">
             Lake Tahoe is around 2 million years old and is the second deepest lake in the United States according to
@@ -26,7 +41,7 @@
         </p>
     </article>
     <!--------------CONTACT FORM-------------->
-    <section class="contact-form">
+    <section id="contact-form">
         <h3>Stay in the know!</h3>
         <form>
             <input type="email" id="email" name="email">
